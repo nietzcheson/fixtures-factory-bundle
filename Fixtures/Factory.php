@@ -14,7 +14,7 @@ class Factory implements FactoryInterface
     private $em;
 
     /**
-     * @var FixturesArrayResolver $fixturesArray
+     * @var ArrayResolver $fixturesArray
      */
     private $fixturesArray;
 
@@ -25,10 +25,10 @@ class Factory implements FactoryInterface
 
     /**
      * @param EntityManagerInterface $em
-     * @param FixturesArrayResolver $fixturesArray
+     * @param ArrayResolver $fixturesArray
      * @param DataLoaderInterface $loader
      */
-    public function __construct(EntityManagerInterface $em, FixturesArrayResolver $fixturesArray, DataLoaderInterface $loader)
+    public function __construct(EntityManagerInterface $em, ArrayResolver $fixturesArray, DataLoaderInterface $loader)
     {
         $this->em = $em;
         $this->fixturesArray = $fixturesArray;

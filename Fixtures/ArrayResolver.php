@@ -7,7 +7,7 @@ use Symfony\Component\HttpKernel\Kernel;
 use Hautelook\AliceBundle\FixtureLocatorInterface;
 use Symfony\Component\Yaml\Yaml;
 
-class FixturesArrayResolver implements FixturesArrayResolverInterface
+class ArrayResolver implements ArrayResolverInterface
 {
     /**
      * @var Kernel $kernel
