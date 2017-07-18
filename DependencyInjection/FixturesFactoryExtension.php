@@ -1,6 +1,6 @@
 <?php
 
-namespace Nietzcheson\FixturesFactoryBundle\DependencyInjection;
+namespace Nietzscheson\FixturesFactoryBundle\DependencyInjection;
 
 use Symfony\Component\DependencyInjection\ContainerBuilder;
 use Symfony\Component\Config\FileLocator;

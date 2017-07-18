@@ -1,6 +1,6 @@
 <?php
 
-namespace Nietzcheson\FixturesFactoryBundle\DependencyInjection;
+namespace Nietzscheson\FixturesFactoryBundle\DependencyInjection;
 
 use Symfony\Component\Config\Definition\Builder\TreeBuilder;
 use Symfony\Component\Config\Definition\ConfigurationInterface;

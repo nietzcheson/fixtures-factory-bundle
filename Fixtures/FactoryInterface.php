@@ -1,6 +1,6 @@
 <?php
 
-namespace Nietzcheson\FixturesFactoryBundle\Fixtures;
+namespace Nietzscheson\FixturesFactoryBundle\Fixtures;
 
 interface FactoryInterface
 {

@@ -1,5 +1,5 @@
 {
-    "name": "nietzcheson/fixtures-factory-bundle",
+    "name": "nietzscheson/fixtures-factory-bundle",
     "type": "symfony-bundle",
     "description": "Fixtures Factory for Symfony projects",
     "keywords": ["Fixtures", "Behat", "BDD", "Testing"],
@@ -18,6 +18,6 @@
         "theofidry/alice-data-fixtures": "^1.0@beta"
     },
     "autoload": {
-        "psr-4": { "Nietzcheson\\FixturesFactoryBundle\\": "" }
+        "psr-4": { "Nietzscheson\\FixturesFactoryBundle\\": "" }
     }
 }

@@ -1,14 +1,15 @@
 services:
-    nietzcheson.fixtures_factory.array_resolver:
-        class: Nietzcheson\FixturesFactoryBundle\Fixtures\ArrayResolver
+    nietzscheson.fixtures_factory.array_resolver:
+        class: Nietzscheson\FixturesFactoryBundle\Fixtures\ArrayResolver
         arguments:
             - '@kernel'
             - '%kernel.bundles%'
             - '@hautelook_alice.locator.environmentless'
+        public: false
 
-    nietzcheson.fixtures_factory:
-        class: Nietzcheson\FixturesFactoryBundle\Fixtures\Factory
+    nietzscheson.fixtures_factory:
+        class: Nietzscheson\FixturesFactoryBundle\Fixtures\Factory
         arguments:
             - '@doctrine.orm.entity_manager'
-            - '@nietzcheson.fixtures_factory.array_resolver'
+            - '@nietzscheson.fixtures_factory.array_resolver'
             - '@nelmio_alice.data_loader.simple'

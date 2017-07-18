@@ -1,6 +1,6 @@
 <?php
 
-namespace Nietzcheson\FixturesFactoryBundle\Fixtures;
+namespace Nietzscheson\FixturesFactoryBundle\Fixtures;
 
 use Doctrine\ORM\EntityManagerInterface;
 use Nelmio\Alice\DataLoaderInterface;
